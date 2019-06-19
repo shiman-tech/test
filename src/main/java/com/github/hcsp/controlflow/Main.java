@@ -1,8 +1,5 @@
 package com.github.hcsp.controlflow;
 
-import java.util.ArrayList;
-import java.util.List;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println(factorial(0));
@@ -17,16 +14,5 @@ public class Main {
      * @param n 输入数字
      * @return 该数字的阶乘
      */
-    public static int factorial(int n) {
-        if(n==0) return 1;
-        List<Integer> res = new ArrayList<>();
-        for(int i=1;i<=n;i++){
-            if(i!=1){
-                res.add(i*res.get(res.size()-1));
-            }else{
-                res.add(i);
-            }
-        }
-        return res.get(res.size()-1);
-    }
+    public static int factorial(int n) {}
 }
