@@ -14,19 +14,5 @@ public class Main {
      * @param n 输入数字
      * @return 该数字的阶乘
      */
-    public static int factorial(int n) {
-        if(n==0) return 1;
-        int result = 1;
-        return result*multiple(n);
-
-    }
-
-    public static int multiple(int num){
-        if(num == 1) {
-            return 1;
-        }
-        else {
-            return num * multiple(num - 1);
-        }
-    }
+    public static int factorial(int n) {}
 }
