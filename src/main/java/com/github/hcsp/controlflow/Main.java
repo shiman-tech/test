@@ -1,7 +1,5 @@
 package com.github.hcsp.controlflow;
 
-import static java.lang.String.valueOf;
-
 public class Main {
     public static void main(String[] args) {
         System.out.println(factorial(0));
@@ -16,11 +14,5 @@ public class Main {
      * @param n 输入数字
      * @return 该数字的阶乘
      */
-    public static int factorial(int n) {
-        int res = 1;
-        for (int i = 1; i <= n; i++ ) {
-            res *= i;
-        }
-        return res;
-    }
+    public static int factorial(int n) {}
 }
