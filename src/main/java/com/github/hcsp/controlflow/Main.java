@@ -1,4 +1,3 @@
-
 package com.github.hcsp.controlflow;
 
 public class Main {
@@ -15,22 +14,5 @@ public class Main {
      * @param n 输入数字
      * @return 该数字的阶乘
      */
-    public static int factorial(int n) {
-        if (n == 0) {
-            return 1;
-        }
-//        使用递归
-//        if (n == 1) {
-//            return 1;
-//        } else {
-//            return n * factorial(--n);
-//        }
-
-//        使用迭代
-        int m = 1;
-        for (int i = 1; i <= n; i++) {
-            m *= i;
-        }
-        return m;
-    }
+    public static int factorial(int n) {}
 }
