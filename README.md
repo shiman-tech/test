@@ -1,4 +1,4 @@
-# Java的控制流练习：使用循环，计算一个数的阶乘 HELLO 
+# Java的控制流练习：使用循环，计算一个数的阶乘 HELLO PUPPY
 
 
 请在[`Main`类](https://github.com/hcsp/loop-factorial/blob/master/src/main/java/com/github/hcsp/controlflow/Main.java)中编写一个方法，使用循环计算一个数的阶乘
